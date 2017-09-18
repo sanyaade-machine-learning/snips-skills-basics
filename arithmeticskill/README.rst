@@ -1,9 +1,9 @@
-alarmclockskill skill for Snips
+arithmeticskill skill for Snips
 ======================================
 
 |MIT License|
 
-alarmclockskill
+arithmeticskill
 
 Installation
 ------------

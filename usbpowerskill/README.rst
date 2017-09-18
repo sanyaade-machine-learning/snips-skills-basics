@@ -1,9 +1,9 @@
-alarmclockskill skill for Snips
+usbpowerskill skill for Snips
 ======================================
 
 |MIT License|
 
-alarmclockskill
+usbpowerskill
 
 Installation
 ------------

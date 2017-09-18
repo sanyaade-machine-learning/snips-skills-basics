@@ -4,6 +4,23 @@ locale: en_AU
 logging: True
 default_location: Bega, au
 skills:
+  - package_name: arithmeticskill
+    class_name: ArithmeticSkill
+    intents:
+      - intent: BasicMaths
+        action: "solve_and_say"
+  - package_name: spellingskill
+    class_name: SpellingSkill
+    intents:
+      - intent: SpellWord
+        action: "spell"
+  - package_name: usbpowerskill
+    class_name: UsbPowerSkill
+    intents:
+      - intent: UsbPowerOnPort
+        action: "usb_power_on"
+      - intent: UsbPowerOffPort
+        action: "usb_power_off"      
   - package_name: alarmclockskill
     class_name: AlarmClock
     intents:
@@ -16,5 +33,4 @@ skills:
       - intent: CancelAlarm
         action: "cancel_alarm"
       - intent: AddAlarm
-        action: "add_alarm"
-        
+        action: "add_alarm"                        

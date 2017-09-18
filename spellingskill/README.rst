@@ -1,9 +1,9 @@
-alarmclockskill skill for Snips
+spellingskill skill for Snips
 ======================================
 
 |MIT License|
 
-alarmclockskill
+spellingskill
 
 Installation
 ------------
