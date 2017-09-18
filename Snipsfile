@@ -1,0 +1,20 @@
+
+assistant: https://external-gateway.snips.ai/v1/registry/assistants/proj_Vb1o42OQr/download?apiToken=ryg334cEBbr1WnhE9EB-ryz33V9NHWSk7n2VcEHW
+locale: en_AU
+logging: True
+default_location: Bega, au
+skills:
+  - package_name: alarmclockskill
+    class_name: AlarmClock
+    intents:
+      - intent: WhatIsTheTime
+        action: "what_is_the_time"
+      - intent: ListAlarms
+        action: "list_alarms"
+      - intent: CancelAllAlarms
+        action: "cancel_all_alarms"
+      - intent: CancelAlarm
+        action: "cancel_alarm"
+      - intent: AddAlarm
+        action: "add_alarm"
+        
